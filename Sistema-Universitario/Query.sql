@@ -37,7 +37,8 @@ JOIN Iscritto_A
 ON Studenti.Matricola = Iscritto_A.Matricola
 WHERE Data_di_nascita <= '1997-01-01' AND Codice_corso = 'L-7' AND Anno_iscrizione >= '2026-09-01'
 
-/* Studente :
+/* Un nuovo bando permette agli studenti di partecipare ad un'esperienza di tirocinio all'estero.
+Lo studente che fa domanda deve essere :
 - Iscritto a Data Science
 - Under 30
 - No fuori corso
