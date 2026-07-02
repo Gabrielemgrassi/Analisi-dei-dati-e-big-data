@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "properties": {
+      "titolo": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      },
+      "utente": {
+        "type": "keyword"
+      },
+      "eta_utente": {
+        "type": "integer"
+      },
+      "citta": {
+        "type": "keyword"
+      },
+      "voto": {
+        "type": "float"
+      },
+      "recensione": {
+        "type": "text"
+      },
+      "data_recensione": {
+        "type": "date"
+      }
+    }
+  }
+}
