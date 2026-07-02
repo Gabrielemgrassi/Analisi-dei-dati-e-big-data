@@ -1,0 +1,92 @@
+//---CREAZIONE DEI NODI (ESEMPIO)---
+
+CREATE
+(:Paziente {codice: 1, età: 56, sesso: "M", ComuneDiResidenza: "Sava" })
+
+CREATE
+(:Medico {nome: "Francesco", cognome:"Totti", specializzazione: "Cardiologia"})
+
+
+//---DEFINIZIONE RELAZIONE(ESEMPIO)---
+
+MATCH
+(p1: Paziente {codice: 1}), (m1:Medico {nome: "Francesco"})
+CREATE
+(m1)-[:VISITA]->(p1);
+
+
+//---DEFINIZIONE DI PIU' RELAZIONI TRA DIVERSI NODI(ESEMPIO)---
+
+WITH [
+    {codicePaziente: 2, idVisita: "V1"},
+    {codicePaziente: 3, idVisita: "V2"},
+    {codicePaziente: 4, idVisita: "V3"},
+    {codicePaziente: 5, idVisita: "V4"}
+] AS listaVisite
+
+MATCH (m1:Medico {id_medico: 1})
+MATCH (d1:Diagnosi {nome: "Ipertensione arteriosa"})
+MATCH (f1:Farmaco {nome: "CardioAspirina"})
+MATCH (e1:Esame {nome: "Elettrocardiogramma"})
+
+UNWIND listaVisite AS item
+
+MATCH (p:Paziente {codice: item.codicePaziente}) 
+MERGE (v:Visita {id: item.idVisita})
+
+MERGE (m1)-[:ESEGUE]->(v)
+MERGE (v)-[:PER_PAZIENTE]->(p)
+MERGE (v)-[:HA_DIAGNOSI]->(d1)
+MERGE (v)-[:PRESCRIVE]->(f1)
+MERGE (v)-[:HA_ESAME]->(e1)
+
+RETURN v, p, m1, d1, f1, e1
+
+
+
+//---QUERY PER IL GRAFO(ESEMPIO):--
+
+//---Trovare pazienti con stessa diagnosi e almeno un farmaco in comune---
+
+MATCH (d:Diagnosi)<-[:HA_DIAGNOSI]-(v1:Visita)-[PER_PAZIENTE]->(p1:Paziente),
+      (d:Diagnosi)<-[:HA_DIAGNOSI]-(v2:Visita)-[:PER_PAZIENTE]->(p2:Paziente),
+      (p1)-[:ASSUME]->(f:Farmaco)<-[:ASSUME]-(p2)
+WHERE p1 <> p2
+RETURN DISTINCT 
+       p1.codice AS Paziente1, 
+       p2.codice AS Paziente2, 
+       d.nome AS Diagnosi, 
+       f.nome AS Farmaco
+
+
+//---Individuare esami più frequentemente associati a una diagnosi---
+
+MATCH (d:Diagnosi)<-[:HA_DIAGNOSI]-(v:Visita)-[:HA_ESAME]->(e:Esame)
+WHERE d.nome CONTAINS "Gastrite erosiva"
+RETURN e.nome AS Esame, count(e) AS Frequenza
+ORDER BY Frequenza DESC
+
+//---Trovare medici che hanno seguito pazienti con la stessa diagnosi---
+
+MATCH (m:Medico)-[:ESEGUE]->(v:Visita)-[:HA_DIAGNOSI]->(d:Diagnosi {nome: 'Gastrite erosiva'})
+RETURN DISTINCT m.id_medico AS Medico, d.nome AS Diagnosi
+
+//---Trovare pazienti che condividono stessa diagnosi e farmaco---
+
+MATCH (p1:Paziente)<-[:PER_PAZIENTE]-(v1:Visita)-[:HA_DIAGNOSI]->(d:Diagnosi)<-[:HA_DIAGNOSI]-(v2:Visita)-[:PER_PAZIENTE]->(p2:Paziente)
+MATCH (v1)-[:PRESCRIVE]->(f:Farmaco)<-[:PRESCRIVE]-(v2)
+WHERE p1 <> p2
+RETURN DISTINCT p1.codice AS Paziente1, p2.codice AS Paziente2, d.nome AS Diagnosi, f.nome AS Farmaco
+
+//---Esami più frequentemente associati a una diagnosi---
+
+MATCH (v:Visita)-[:HA_DIAGNOSI]->(d:Diagnosi {nome: 'Gastrite erosiva'})
+MATCH (v)-[:HA_ESAME]->(e:Esame)
+RETURN e.nome AS Esame, count(e) AS Frequenza
+ORDER BY Frequenza DESC
+
+//---Medici che hanno seguito pazienti con la stessa diagnosi---
+
+MATCH (m:Medico)-[:ESEGUE]->(v:Visita)-[:HA_DIAGNOSI]->(d:Diagnosi {nome: 'Gastrite erosiva'})
+MATCH (v)-[:PER_PAZIENTE]->(p:Paziente)
+RETURN DISTINCT m.id_medico AS Medico, p.codice AS Paziente, d.nome AS Diagnosi
