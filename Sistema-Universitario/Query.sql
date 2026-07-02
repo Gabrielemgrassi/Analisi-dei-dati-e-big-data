@@ -31,7 +31,7 @@ I requisiti sono quelli di :
 - avere un\' età pari o superiore ad anni 30
 */
 Gli studenti che rispettano i precedenti requisiti sono elencati di seguito.
-SELECT Nome_studente, Cognome_studente, Studenti.Matricola, Data_di_nascita, Codice_corso, Anno_iscrizione --BUONA
+SELECT Nome_studente, Cognome_studente, Studenti.Matricola, Data_di_nascita, Codice_corso, Anno_iscrizione
 FROM Studenti
 JOIN Iscritto_A 
 ON Studenti.Matricola = Iscritto_A.Matricola
@@ -44,7 +44,7 @@ Lo studente che fa domanda deve essere :
 - No fuori corso
 - Con media sopra il 25
 */
-SELECT Nome_studente, Cognome_studente, Studenti.Matricola, Data_di_nascita, Codice_corso, Anno_iscrizione, AVG(Voto) as Media --BUONA
+SELECT Nome_studente, Cognome_studente, Studenti.Matricola, Data_di_nascita, Codice_corso, Anno_iscrizione, AVG(Voto) as Media
 FROM Studenti
 JOIN Iscritto_A 
 ON Studenti.Matricola = Iscritto_A.Matricola
