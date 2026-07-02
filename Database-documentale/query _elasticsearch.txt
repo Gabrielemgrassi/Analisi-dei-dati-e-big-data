@@ -1,0 +1,226 @@
+#QUERY
+
+
+#RICERCA DI PAROLE CHIAVE NELLE RECENSIONI VALUTATE POSITIVAMENTE
+GET recensioni_film/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "query_string": {
+            "default_field": "recensione",
+            "query": "bellissimo OR divertente OR capolavoro OR fantastico"
+          }
+        }
+      ],
+      "filter": [
+        { "range": { "voto": { "gte": 4 } } }
+      ]
+    }
+  }
+}
+
+#RICERCA DI PAROLE CHIAVE NELLE RECENSIONI VALUTATE NEGATIVAMENTE
+GET recensioni_film/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "query_string": {
+            "default_field": "recensione",
+            "query": "noioso OR deluso OR lentissimo OR brutto"
+          }
+        }
+      ],
+      "filter": [
+        { "range": { "voto": { "lte": 2 } } }
+      ]
+    }
+  }
+}
+
+#CALCOLO LUNGHEZZA MEDIA RECENSIONE PER VALUTARE SE LE PERSONE SCRIVONO DI PIU' PER ELOGIARE O CRITICARE
+GET recensioni_film/_search
+{
+  "size": 0,
+  "aggs": {
+    "voti": {
+      "terms": {
+        "field": "voto"
+      },
+      "aggs": {
+        "lunghezza_media_recensione": {
+          "avg": {
+            "script": {
+              "source": "params._source.recensione.length()"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#RECENSIONI SCRITTE IN RELAZIONE ALLA CITTA' DELL'UTENTE
+GET recensioni_film/_search
+{
+  "size": 0,
+  "aggs": {
+    "per_citta": {
+      "terms": {
+        "field": "citta",
+        "size": 5,
+        "order": {
+          "voto_medio": "asc"
+        }
+      },
+      "aggs": {
+        "voto_medio": {
+          "avg": {
+            "field": "voto"
+          }
+        }
+      }
+    }
+  }
+}
+
+#RICERCA DI ASPETTATIVE ALTE CON VOTI BASSI
+GET recensioni_film/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "query_string": {
+            "default_field": "recensione",
+            "query": "aspettavo OR pubblicità OR fama OR promesso"
+          }
+        }
+      ],
+      "filter": [
+        {
+          "range": {
+            "voto": {
+              "lte": 2
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sort": [
+    { "eta_utente": { "order": "asc" } }
+  ]
+}
+
+#UTENTI PIU' ATTIVI NEL LASCIARE RECENSIONI
+GET recensioni_film/_search
+{
+  "size": 0,
+  "aggs": {
+    "utenti_piu_attivi": {
+      "terms": {
+        "field": "utente",
+        "size": 5,
+        "order": {
+          "_count": "desc"
+        }
+      },
+      "aggs": {
+        "voto_medio_utente": {
+          "avg": {
+            "field": "voto"
+          }
+        },
+        "citta_utente": {
+          "terms": {
+            "field": "citta",
+            "size": 1
+          }
+        }
+      }
+    }
+  }
+}
+
+#DISTRIBUZIONE DEI VOTI E DELL'ETA' DEGLI UTENTI NEI FILM MARVEL
+GET recensioni_film/_search
+{
+  "size": 10, 
+  "query": {
+    "query_string": {
+      "default_field": "recensione",
+      "query": "Marvel OR \"Morbius\" OR \"Madame Web\"" 
+    }
+  },
+  "aggs": {
+    "analisi_per_film_marvel": {
+      "terms": {
+        "field": "titolo.keyword",
+        "size": 5,
+        "order": {
+          "voto_medio_marvel": "asc" 
+        }
+      },
+      "aggs": {
+        "voto_medio_marvel": {
+          "avg": {
+            "field": "voto"
+          }
+        },
+        "eta_media_pubblico": {
+          "avg": {
+            "field": "eta_utente"
+          }
+        }
+      }
+    }
+  }
+}
+
+#ANALISI DELLA COERENZA TRA RECENSIONE TESTUALE E VOTO ASSEGNATO
+GET recensioni_film/_search
+{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "bool": {
+            "must": [
+              {
+                "query_string": {
+                  "default_field": "recensione",
+                  "query": "bellissimo OR fantastico OR capolavoro OR emozionante OR divertente OR consigliato OR spettacolare"
+                }
+              },
+              {
+                "terms": {
+                  "voto": [1, 2]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "bool": {
+            "must": [
+              {
+                "query_string": {
+                  "default_field": "recensione",
+                  "query": "noioso OR lento OR deluso OR delusa OR prevedibile OR annoiato OR annoiata OR non_convinto OR non_convinta"
+                }
+              },
+              {
+                "terms": {
+                  "voto": [4, 5]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
