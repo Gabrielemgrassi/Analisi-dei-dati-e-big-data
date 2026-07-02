@@ -1,0 +1,409 @@
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Inception","utente":"Francesca","eta_utente":24,"citta":"Lecce","voto":5,"recensione":"Christopher Nolan realizza un film originale e coinvolgente. La trama è complessa ma mai banale, gli effetti visivi sono spettacolari e Leonardo DiCaprio interpreta il protagonista in maniera impeccabile. Uno dei miei film preferiti.","data_recensione":"2026-06-28"}
+{"index":{}}
+{"titolo":"Inception","utente":"Marco","eta_utente":29,"citta":"Roma","voto":5,"recensione":"Un capolavoro della fantascienza moderna. La fotografia è straordinaria, la colonna sonora di Hans Zimmer è memorabile e il finale lascia spazio a molte interpretazioni. Film da rivedere più volte.","data_recensione":"2026-06-27"}
+{"index":{}}
+{"titolo":"Inception","utente":"Giulia","eta_utente":22,"citta":"Milano","voto":4,"recensione":"La storia è molto interessante e il cast è eccellente. In alcuni momenti bisogna prestare molta attenzione per seguire tutti i livelli del sogno, ma resta un film davvero ben realizzato.","data_recensione":"2026-06-25"}
+{"index":{}}
+{"titolo":"Inception","utente":"Alessandro","eta_utente":31,"citta":"Napoli","voto":4,"recensione":"Ottimo film sotto tutti i punti di vista. Ho apprezzato soprattutto la regia e gli effetti speciali, anche se la trama in alcuni passaggi è un po' complicata da seguire alla prima visione.","data_recensione":"2026-06-22"}
+{"index":{}}
+{"titolo":"Inception","utente":"Martina","eta_utente":26,"citta":"Torino","voto":3,"recensione":"Riconosco la qualità del film e delle interpretazioni, ma personalmente non mi ha coinvolto quanto speravo. La narrazione è molto complessa e il ritmo, in alcuni momenti, risulta lento.","data_recensione":"2026-06-20"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Interstellar","utente":"Davide","eta_utente":30,"citta":"Bologna","voto":5,"recensione":"Un film emozionante che riesce a unire perfettamente fantascienza e sentimenti. Matthew McConaughey offre un'interpretazione straordinaria e la colonna sonora di Hans Zimmer rende ogni scena ancora più intensa. Uno dei migliori film mai realizzati.","data_recensione":"2026-06-19"}
+{"index":{}}
+{"titolo":"Interstellar","utente":"Chiara","eta_utente":23,"citta":"Firenze","voto":5,"recensione":"Ogni volta che lo guardo scopro un dettaglio nuovo. Fotografia spettacolare, effetti visivi incredibili e una storia che fa riflettere sul tempo, sulla famiglia e sul futuro dell'umanità.","data_recensione":"2026-06-18"}
+{"index":{}}
+{"titolo":"Interstellar","utente":"Lorenzo","eta_utente":27,"citta":"Roma","voto":4,"recensione":"Film visivamente magnifico e ricco di emozioni. Alcune spiegazioni scientifiche risultano complesse, ma la regia e le interpretazioni compensano pienamente questo aspect.","data_recensione":"2026-06-16"}
+{"index":{}}
+{"titolo":"Interstellar","utente":"Elisa","eta_utente":25,"citta":"Verona","voto":4,"recensione":"Una storia profonda e coinvolgente che affronta temi scientifici e umani. Il finale è emozionante, anche se alcune scene centrali rallentano leggermente il ritmo.","data_recensione":"2026-06-15"}
+{"index":{}}
+{"titolo":"Interstellar","utente":"Federico","eta_utente":34,"citta":"Genova","voto":2,"recensione":"Riconosco l'ottima qualità tecnica del film, ma personalmente l'ho trovato troppo lungo e in diversi momenti la narrazione è risultata lenta. Mi aspettavo un maggiore equilibrio tra azione e dialoghi.","data_recensione":"2026-06-14"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Oppenheimer","utente":"Matteo","eta_utente":29,"citta":"Roma","voto":5,"recensione":"Christopher Nolan firma un'opera straordinaria. Cillian Murphy interpreta Oppenheimer in maniera magistrale e ogni scena è curata nei minimi dettagli. La fotografia e la colonna sonora rendono il film ancora più coinvolgente. Un capolavoro del cinema moderno.","data_recensione":"2026-06-13"}
+{"index":{}}
+{"titolo":"Oppenheimer","utente":"Laura","eta_utente":26,"citta":"Milano","voto":5,"recensione":"Film intenso e mai banale. La ricostruzione storica è accurata, il cast è eccezionale e Robert Downey Jr. sorprende con un'interpretazione diversa dal solito. Le tre ore scorrono senza pesare.","data_recensione":"2026-06-12"}
+{"index":{}}
+{"titolo":"Oppenheimer","utente":"Simone","eta_utente":34,"citta":"Torino","voto":5,"recensione":"Uno dei migliori film degli ultimi anni. Regia impeccabile, dialoghi coinvolgenti e una tension costante che accompagna tutta la storia. Cillian Murphy merita ogni riconoscimento ricevuto.","data_recensione":"2026-06-11"}
+{"index":{}}
+{"titolo":"Oppenheimer","utente":"Elena","eta_utente":24,"citta":"Bari","voto":4,"recensione":"Film molto interessante e ben recitato. Alcuni dialoghi sono piuttosto tecnici, ma nel complesso è una visione coinvolgente che consiglio a chi ama il cinema biografico.","data_recensione":"2026-06-10"}
+{"index":{}}
+{"titolo":"Oppenheimer","utente":"Riccardo","eta_utente":31,"citta":"Napoli","voto":2,"recensione":"Dal punto di vista tecnico è un film di altissimo livello, ma l'ho trovato troppo lungo e ricco di dialoghi. Mi aspettavo un ritmo più dinamico e una narrazione meno complessa.","data_recensione":"2026-06-09"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"The Dark Knight","utente":"Andrea","eta_utente":28,"citta":"Bologna","voto":5,"recensione":"Uno dei migliori cinecomic mai realizzati. Heath Ledger offre un'interpretazione del Joker semplicemente indimenticabile. La regia di Christopher Nolan è impeccabile e il film mantiene alta la tensione dall'inizio alla fine.","data_recensione":"2026-06-08"}
+{"index":{}}
+{"titolo":"The Dark Knight","utente":"Valentina","eta_utente":25,"citta":"Firenze","voto":5,"recensione":"Non è solo un film di supereroi, ma un thriller costruito alla perfezione. Le interpretazioni sono straordinarie e ogni personaggio è sviluppato in modo convincente. Lo rivedrei senza alcun dubbio.","data_recensione":"2026-06-07"}
+{"index":{}}
+{"titolo":"The Dark Knight","utente":"Gabriele","eta_utente":31,"citta":"Milano","voto":4,"recensione":"Film spettacolare sotto ogni aspetto. La fotografia e la colonna sonora sono eccellenti e Heath Ledger rende il Joker uno dei cattivi più iconici della storia del cinema.","data_recensione":"2026-06-06"}
+{"index":{}}
+{"titolo":"The Dark Knight","utente":"Martina","eta_utente":27,"citta":"Verona","voto":4,"recensione":"Film coinvolgente e ricco di colpi di scena. In alcuni momenti la durata si fa sentire, ma resta una delle migliori produzioni dedicate a Batman.","data_recensione":"2026-06-05"}
+{"index":{}}
+{"titolo":"The Dark Knight","utente":"Luca","eta_utente":33,"citta":"Genova","voto":2,"recensione":"Riconosco la qualità del film e dell'interpretazione di Heath Ledger, ma personalmente non mi ha coinvolto quanto mi aspettavo. Ho trovato alcune scene troppo lunghe e il ritmo non sempre costante.","data_recensione":"2026-06-04"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Fight Club","utente":"Sara","eta_utente":26,"citta":"Bari","voto":5,"recensione":"David Fincher realizza un film fuori dagli schemi che riesce ancora oggi a sorprendere. Brad Pitt ed Edward Norton sono perfetti nei rispettivi ruoli e il finale è tra i più iconici della storia del cinema. Un'opera che invita a riflettere e che migliora ad ogni visione.","data_recensione":"2026-06-03"}
+{"index":{}}
+{"titolo":"Fight Club","utente":"Alessandro","eta_utente":31,"citta":"Napoli","voto":5,"recensione":"Un film originale e provocatorio che rompe ogni schema. La sceneggiatura è brillante, la regia è impeccabile e il cast offre interpretazioni memorabili. Il colpo di scena finale rende questa pellicola indimenticabile.","data_recensione":"2026-06-02"}
+{"index":{}}
+{"titolo":"Fight Club","utente":"Francesca","eta_utente":24,"citta":"Lecce","voto":4,"recensione":"Film molto particolare e ricco di significato. Ho apprezzato soprattutto la regia di Fincher e le interpretazioni degli attori. Alcuni passaggi richiedono attenzione, ma il risultato finale è davvero notevole.","data_recensione":"2026-06-01"}
+{"index":{}}
+{"titolo":"Fight Club","utente":"Riccardo","eta_utente":34,"citta":"Genova","voto":4,"recensione":"Una pellicola diversa dal solito che affronta temi profondi con uno stile unico. Ottima fotografia e dialoghi ben scritti, anche se il ritmo nella parte iniziale è un po' lento.","data_recensione":"2026-05-31"}
+{"index":{}}
+{"titolo":"Fight Club","utente":"Matteo","eta_utente":28,"citta":"Torino","voto":3,"recensione":"Riconosco che sia un film ben realizzato e con un finale sorprendente, ma personalmente non sono riuscito ad apprezzare fino in fondo la storia. Alcune scene mi sono sembrate eccessive e il messaggio non mi ha convinto del tutto.","data_recensione":"2026-05-30"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Titanic","utente":"Chiara","eta_utente":23,"citta":"Firenze","voto":5,"recensione":"Una storia d'amore che continua a emozionare anche dopo tanti anni. Leonardo DiCaprio e Kate Winslet hanno una chimica incredibile e la ricostruzione del Titanic è impressionante. Un film che merita di essere visto almeno una volta nella vita.","data_recensione":"2026-05-29"}
+{"index":{}}
+{"titolo":"Titanic","utente":"Alessia","eta_utente":27,"citta":"Milano","voto":5,"recensione":"James Cameron realizza un film spettacolare sotto ogni aspetto. Gli effetti speciali sono ancora oggi convincenti e la colonna sonora rende ogni scena ancora più emozionante. Finale indimenticabile.","data_recensione":"2026-05-28"}
+{"index":{}}
+{"titolo":"Titanic","utente":"Davide","eta_utente":30,"citta":"Bologna","voto":4,"recensione":"Film molto coinvolgente e ben realizzato. La storia è emozionante e il cast è eccellente, anche se la durata è piuttosto elevata. Rimane comunque un grande classico del cinema.","data_recensione":"2026-05-27"}
+{"index":{}}
+{"titolo":"Titanic","utente":"Marco","eta_utente":29,"citta":"Roma","voto":5,"recensione":"Un film capace di emozionare ad ogni visione. Le interpretazioni degli attori sono straordinarie e la ricostruzione storica è curata nei minimi dettagli. Uno dei migliori film romantici mai realizzati.","data_recensione":"2026-05-26"}
+{"index":{}}
+{"titolo":"Titanic","utente":"Federico","eta_utente":34,"citta":"Genova","voto":2,"recensione":"Riconosco il valore storico del film e la qualità tecnica, ma personalmente l'ho trovato eccessivamente lungo. La storia d'amore non mi ha coinvolto e alcune scene risultano troppo lente.","data_recensione":"2026-05-25"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Forrest Gump","utente":"Elisa","eta_utente":26,"citta":"Palermo","voto":5,"recensione":"Un film straordinario che riesce a emozionare dall'inizio alla fine. Tom Hanks offre una delle migliori interpretazioni della sua carriera e la storia trasmette valori come l'amicizia, l'amore e la determinazione. Un capolavoro senza tempo.","data_recensione":"2026-05-24"}
+{"index":{}}
+{"titolo":"Forrest Gump","utente":"Lorenzo","eta_utente":30,"citta":"Napoli","voto":5,"recensione":"Una storia coinvolgente e ricca di emozioni. La regia è impeccabile, la colonna sonora accompagna perfettamente ogni scena e Tom Hanks rende Forrest un personaggio indimenticabile.","data_recensione":"2026-05-23"}
+{"index":{}}
+{"titolo":"Forrest Gump","utente":"Martina","eta_utente":24,"citta":"Roma","voto":4,"recensione":"Film molto bello e profondo. Alterna momenti divertenti a scene commoventi e riesce a coinvolgere lo spettatore fino alla fine. In alcuni tratti il ritmo rallenta leggermente, ma resta un'opera da vedere.","data_recensione":"2026-05-22"}
+{"index":{}}
+{"titolo":"Forrest Gump","utente":"Gabriele","eta_utente":32,"citta":"Verona","voto":5,"recensione":"Un classico del cinema che non smette mai di emozionare. La sceneggiatura è brillante, i personaggi sono memorabili e il messaggio del film rimane attuale ancora oggi.","data_recensione":"2026-05-21"}
+{"index":{}}
+{"titolo":"Forrest Gump","utente":"Federico","eta_utente":35,"citta":"Genova","voto":2,"recensione":"Riconosco che sia un film importante e ben realizzato, ma personalmente non sono riuscito ad apprezzarne il ritmo. Alcune parti mi sono sembrate troppo lente e la storia non mi ha coinvolto quanto speravo.","data_recensione":"2026-05-20"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"The Wolf of Wall Street","utente":"Alessia","eta_utente":27,"citta":"Milano","voto":5,"recensione":"Martin Scorsese dirige un film travolgente e ricco di energia. Leonardo DiCaprio è semplicemente straordinario e riesce a rendere il personaggio carismatico e allo stesso tempo discutibile. Divertente, provocatorio e mai banale.","data_recensione":"2026-05-19"}
+{"index":{}}
+{"titolo":"The Wolf of Wall Street","utente":"Stefano","eta_utente":33,"citta":"Roma","voto":5,"recensione":"Un film coinvolgente dall'inizio alla fine. La regia è impeccabile, i dialoghi sono brillanti e Leonardo DiCaprio offre una delle migliori interpretazioni della sua carriera. Le tre ore scorrono velocemente.","data_recensione":"2026-05-18"}
+{"index":{}}
+{"titolo":"The Wolf of Wall Street","utente":"Valeria","eta_utente":25,"citta":"Lecce","voto":4,"recensione":"Film molto divertente e ben interpretato. Alcune scene sono davvero memorabili, anche se la durata è un po' eccessiva. Nel complesso è una pellicola che consiglio.","data_recensione":"2026-05-17"}
+{"index":{}}
+{"titolo":"The Wolf of Wall Street","utente":"Marco","eta_utente":29,"citta":"Bologna","voto":4,"recensione":"Ottima regia e cast eccezionale. Alcuni eccessi sono volutamente esagerati e rendono il film molto particolare. Non è adatto a tutti, ma resta un grande lavoro di Scorsese.","data_recensione":"2026-05-16"}
+{"index":{}}
+{"titolo":"The Wolf of Wall Street","utente":"Riccardo","eta_utente":35,"citta":"Torino","voto":2,"recensione":"Riconosco la qualità della regia e delle interpretazioni, ma personalmente non ho apprezzato il continuo susseguirsi di eccessi. La durata è importante e alcune scene risultano ripetitive.","data_recensione":"2026-05-15"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Joker","utente":"Francesca","eta_utente":24,"citta":"Lecce","voto":5,"recensione":"Un film intenso e profondo che affronta temi attuali come l'emarginazione e la salute mentale. Joaquin Phoenix offre un'interpretazione straordinaria che regge l'intero film. Una delle migliori performance degli ultimi anni.","data_recensione":"2026-05-14"}
+{"index":{}}
+{"titolo":"Joker","utente":"Alessandro","eta_utente":31,"citta":"Napoli","voto":5,"recensione":"Non è il classico film sui supereroi, ma un vero dramma psicologico. La fotografia, la colonna sonora e la recitazione di Joaquin Phoenix sono eccezionali. Finale memorabile.","data_recensione":"2026-05-13"}
+{"index":{}}
+{"titolo":"Joker","utente":"Martina","eta_utente":27,"citta":"Roma","voto":4,"recensione":"Film molto particolare e ben interpretato. Ho apprezzato soprattutto l'evoluzione del protagonista, anche se il ritmo è piuttosto lento in alcune parti.","data_recensione":"2026-05-12"}
+{"index":{}}
+{"titolo":"Joker","utente":"Matteo","eta_utente":30,"citta":"Bologna","voto":3,"recensione":"Tecnicamente è un ottimo film e Joaquin Phoenix è bravissimo, ma la storia procede lentamente e non mi ha coinvolto quanto speravo. Nel complesso è una buona pellicola, ma non la rivedrei.","data_recensione":"2026-05-11"}
+{"index":{}}
+{"titolo":"Joker","utente":"Federico","eta_utente":35,"citta":"Genova","voto":1,"recensione":"Mi aspettavo molto di più. L'interpretazione del protagonista è ottima, ma la trama è lenta e poco coinvolgente. Non sono riuscito a entrare nella storia e l'ho trovato eccessivamente pesante.","data_recensione":"2026-05-10"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"The Godfather","utente":"Andrea","eta_utente":31,"citta":"Milano","voto":5,"recensione":"Un autentico capolavoro del cinema. La regia di Francis Ford Coppola è impeccabile e le interpretazioni di Marlon Brando e Al Pacino sono leggendarie. Ogni scena è costruita con una cura straordinaria e il film riesce ancora oggi a emozionare e coinvolgere.","data_recensione":"2026-05-09"}
+{"index":{}}
+{"titolo":"The Godfather","utente":"Sara","eta_utente":27,"citta":"Bari","voto":5,"recensione":"Una delle migliori pellicole mai realizzate. La sceneggiatura è perfetta, i dialoghi sono memorabili e ogni personaggio è caratterizzato in modo eccellente. Un film che tutti dovrebbero vedere almeno una volta.","data_recensione":"2026-05-08"}
+{"index":{}}
+{"titolo":"The Godfather","utente":"Lorenzo","eta_utente":29,"citta":"Roma","voto":5,"recensione":"Un film che ha fatto la storia del cinema. Al Pacino cresce scena dopo scena e Marlon Brando offre una delle interpretazioni più iconiche di sempre. Regia, fotografia e colonna sonora sono semplicemente perfette.","data_recensione":"2026-05-07"}
+{"index":{}}
+{"titolo":"The Godfather","utente":"Valentina","eta_utente":24,"citta":"Lecce","voto":4,"recensione":"Film di altissimo livello sotto ogni aspetto. Richiede attenzione durante la visione perché la trama è ricca di personaggi e dettagli, ma nel complesso è un'opera straordinaria che merita tutta la sua fama.","data_recensione":"2026-05-06"}
+{"index":{}}
+{"titolo":"The Godfather","utente":"Federico","eta_utente":36,"citta":"Genova","voto":3,"recensione":"Riconosco il valore storico del film e la qualità delle interpretazioni, ma il ritmo è piuttosto lento rispetto ai film moderni. È un grande classico, anche se personalmente non mi ha coinvolto quanto mi aspettavo.","data_recensione":"2026-05-05"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Dune","utente":"Alberto","eta_utente":30,"citta":"Roma","voto":5,"recensione":"Denis Villeneuve realizza un film visivamente spettacolare. La fotografia è straordinaria, gli effetti speciali sono tra i migliori degli ultimi anni e la colonna sonora di Hans Zimmer rende ogni scena ancora più immersiva. Un'esperienza cinematografica da vedere sul grande schermo.","data_recensione":"2026-04-29"}
+{"index":{}}
+{"titolo":"Dune","utente":"Giulia","eta_utente":25,"citta":"Milano","voto":5,"recensione":"Una trasposizione fedele e coinvolgente. Il cast è eccellente e Timothée Chalamet interpreta Paul Atreides con grande intensità. La regia e la fotografia sono davvero di altissimo livello.","data_recensione":"2026-04-28"}
+{"index":{}}
+{"titolo":"Dune","utente":"Davide","eta_utente":32,"citta":"Bologna","voto":4,"recensione":"Film molto curato dal punto di vista tecnico. Gli effetti visivi e la fotografia sono eccezionali, anche se la storia procede lentamente nella parte iniziale. Ottima introduzione alla saga.","data_recensione":"2026-04-27"}
+{"index":{}}
+{"titolo":"Dune","utente":"Silvia","eta_utente":28,"citta":"Torino","voto":4,"recensione":"Un film affascinante e visivamente impressionante. La sceneggiatura prepara bene gli eventi futuri, ma alcune scene avrebbero potuto avere un ritmo più sostenuto.","data_recensione":"2026-04-26"}
+{"index":{}}
+{"titolo":"Dune","utente":"Riccardo","eta_utente":35,"citta":"Genova","voto":2,"recensione":"Dal punto di vista tecnico è un film eccezionale, ma non sono riuscito a farmi coinvolgere dalla storia. Il ritmo è troppo lento e il finale lascia molte questioni in sospeso.","data_recensione":"2026-04-25"}
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Barbie","utente":"Eleonora","eta_utente":24,"citta":"Lecce","voto":5,"recensione":"Molto più profondo di quanto immaginassi. Greta Gerwig riesce a trattare temi importanti con leggerezza e ironia. Margot Robbie è perfetta nel ruolo e Ryan Gosling regala momenti davvero divertenti. Un film originale e intelligente.","data_recensione":"2026-04-24"}
+{"index":{}}
+{"titolo":"Barbie","utente":"Stefania","eta_utente":29,"citta":"Milano","voto":4,"recensione":"Film colorato e divertente, con una fotografia davvero curata. Ho apprezzato soprattutto il messaggio finale e la colonna sonora. Alcune scene sono un po' sopra le righe, ma nel complesso è stata una piacevole sorpresa.","data_recensione":"2026-04-23"}
+{"index":{}}
+{"titolo":"Barbie","utente":"Giorgio","eta_utente":32,"citta":"Verona","voto":4,"recensione":"Ryan Gosling è the vero protagonista del film grazie a un'interpretazione brillante e ironica. La regia è originale e il ritmo è sempre vivace. Non è solo una commedia, ma affronta anche temi interessanti.","data_recensione":"2026-04-22"}
+{"index":{}}
+{"titolo":"Barbie","utente":"Nicola","eta_utente":35,"citta":"Napoli","voto":2,"recensione":"Mi aspettavo una commedia più leggera. Ho trovato alcuni messaggi troppo espliciti e la storia non mi ha coinvolto del tutto. Visivamente è molto bella, ma la sceneggiatura non mi ha convinto.","data_recensione":"2026-04-21"}
+{"index":{}}
+{"titolo":"Barbie","utente":"Fabio","eta_utente":38,"citta":"Genova","voto":1,"recensione":"Non è il mio genere di film. Nonostante la qualità della scenografia e dei costumi, non sono riuscito a entrare nella storia e l'ho trovato poco coinvolgente. Personalmente non lo consiglierei.","data_recensione":"2026-04-20"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Avatar","utente":"Michele","eta_utente":29,"citta":"Bari","voto":5,"recensione":"Dal punto di vista visivo è ancora oggi uno dei film più spettacolari mai realizzati. Gli effetti speciali sono incredibili e Pandora è un mondo costruito nei minimi dettagli. James Cameron dimostra ancora una volta di essere un regista straordinario.","data_recensione":"2026-04-19"}
+{"index":{}}
+{"titolo":"Avatar","utente":"Beatrice","eta_utente":24,"citta":"Torino","voto":5,"recensione":"Un'esperienza cinematografica unica. La fotografia è straordinaria, la colonna sonora accompagna perfettamente ogni scena e il messaggio sul rapporto tra uomo e natura è molto attuale. Lo rivedrei volentieri.","data_recensione":"2026-04-18"}
+{"index":{}}
+{"titolo":"Avatar","utente":"Marco","eta_utente":31,"citta":"Roma","voto":4,"recensione":"Tecnicamente è un capolavoro. Gli effetti visivi sono eccezionali e il mondo di Pandora è affascinante. La trama però ricorda altre storie già viste, anche se rimane un film molto coinvolgente.","data_recensione":"2026-04-17"}
+{"index":{}}
+{"titolo":"Avatar","utente":"Alessia","eta_utente":27,"citta":"Firenze","voto":4,"recensione":"Film spettacolare soprattutto dal punto di vista tecnico. Ho apprezzato molto la fotografia e gli effetti speciali, mentre alcuni dialoghi risultano un po' semplici. Nel complesso è una visione che consiglio.","data_recensione":"2026-04-16"}
+{"index":{}}
+{"titolo":"Avatar","utente":"Gianluca","eta_utente":37,"citta":"Padova","voto":2,"recensione":"Visivamente è impressionante, ma la storia non mi ha coinvolto. Ho trovato la sceneggiatura piuttosto prevedibile e alcuni personaggi poco approfonditi. Ottimo dal punto di vista tecnico, meno da quello narrativo.","data_recensione":"2026-04-15"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Gladiator","utente":"Daniele","eta_utente":30,"citta":"Roma","voto":5,"recensione":"Un capolavoro del cinema storico. Russell Crowe interpreta Massimo in maniera straordinaria e riesce a trasmettere tutta la força e il dolore del personaggio. Le scene di combattimento sono spettacolari e la colonna sonora è semplicemente indimenticabile.","data_recensione":"2026-04-09"}
+{"index":{}}
+{"titolo":"Gladiator","utente":"Elena","eta_utente":25,"citta":"Firenze","voto":5,"recensione":"Ridley Scott realizza un film epico sotto ogni aspetto. La fotografia è spettacolare, la ricostruzione dell'antica Roma è curata nei minimi dettagli e Joaquin Phoenix interpreta un antagonista memorabile. Uno dei miei film preferiti.","data_recensione":"2026-04-08"}
+{"index":{}}
+{"titolo":"Gladiator","utente":"Giuseppe","eta_utente":34,"citta":"Palermo","voto":5,"recensione":"Un film che emoziona dall'inizio alla fine. La sceneggiatura è coinvolgente, il ritmo è sempre alto e il finale è tra i più commoventi della storia del cinema. Russell Crowe è semplicemente perfetto.","data_recensione":"2026-04-07"}
+{"index":{}}
+{"titolo":"Gladiator","utente":"Martina","eta_utente":27,"citta":"Bologna","voto":4,"recensione":"Film molto coinvolgente con interpretazioni eccellenti. Ho apprezzato soprattutto la regia e la colonna sonora. Alcune scene di battaglia sono un po' lunghe, ma nel complesso resta una pellicola straordinaria.","data_recensione":"2026-04-06"}
+{"index":{}}
+{"titolo":"Gladiator","utente":"Fabio","eta_utente":38,"citta":"Genova","voto":2,"recensione":"Riconosco la qualità tecnica del film e le ottime interpretazioni, ma personalmente non amo il genere storico. La durata è importante e alcune scene mi sono sembrate ripetitive, anche se il finale è molto emozionante.","data_recensione":"2026-04-05"}
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Shutter Island","utente":"Roberta","eta_utente":27,"citta":"Perugia","voto":5,"recensione":"Martin Scorsese costruisce un thriller psicologico coinvolgente dall'inizio alla fine. Leonardo DiCaprio offre un'interpretazione straordinaria e il finale cambia completamente il modo di vedere il film. La fotografia cupa contribuisce a creare un'atmosfera perfetta.","data_recensione":"2026-04-04"}
+{"index":{}}
+{"titolo":"Shutter Island","utente":"Alessio","eta_utente":32,"citta":"Cagliari","voto":5,"recensione":"Un thriller psicologico di altissimo livello. La sceneggiatura è intelligente, il ritmo tiene alta la tensione e il finale è uno dei migliori che abbia mai visto. Leonardo DiCaprio è semplicemente eccezionale.","data_recensione":"2026-04-03"}
+{"index":{}}
+{"titolo":"Shutter Island","utente":"Serena","eta_utente":24,"citta":"Lecce","voto":4,"recensione":"Film molto ben costruito e ricco di suspense. Ho apprezzato soprattutto la regia e l'interpretazione del protagonista. Alcuni passaggi richiedono attenzione, ma il finale ripaga pienamente la visione.","data_recensione":"2026-04-02"}
+{"index":{}}
+{"titolo":"Shutter Island","utente":"Tommaso","eta_utente":35,"citta":"Padova","voto":4,"recensione":"Atmosfera inquietante e fotografia davvero curata. La storia è interessante e piena di colpi di scena, anche se nella parte centrale il ritmo rallenta leggermente. Nel complesso è un thriller di grande qualità.","data_recensione":"2026-04-01"}
+{"index":{}}
+{"titolo":"Shutter Island","utente":"Claudio","eta_utente":41,"citta":"Trieste","voto":2,"recensione":"Le interpretazioni sono ottime e la regia è di alto livello, ma ho trovato la trama troppo complicata. Il finale non mi ha convinto del tutto e ho fatto fatica a seguire alcuni passaggi della storia.","data_recensione":"2026-03-31"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Pulp Fiction","utente":"Luca","eta_utente":29,"citta":"Roma","voto":5,"recensione":"Un capolavoro del cinema moderno. Quentin Tarantino costruisce una narrazione originale e mai scontata, con dialoghi memorabili e personaggi indimenticabili. Samuel L. Jackson domina ogni scena e la colonna sonora è semplicemente perfetta.","data_recensione":"2026-03-30"}
+{"index":{}}
+{"titolo":"Pulp Fiction","utente":"Silvia","eta_utente":26,"citta":"Milano","voto":5,"recensione":"Film brillante e fuori dagli schemi. La regia è impeccabile, i dialoghi sono divertenti e la struttura narrativa rende la storia ancora più coinvolgente. Ogni personaggio ha una personalità ben definita.","data_recensione":"2026-03-29"}
+{"index":{}}
+{"titolo":"Pulp Fiction","utente":"Davide","eta_utente":33,"citta":"Bologna","voto":4,"recensione":"Un film originale che ha rivoluzionato il genere crime. Ho apprezzato soprattutto i dialoghi e l'interpretazione di Samuel L. Jackson. Alcune scene sono particolarmente violente, ma fanno parte dello stile di Tarantino.","data_recensione":"2026-03-28"}
+{"index":{}}
+{"titolo":"Pulp Fiction","utente":"Martina","eta_utente":24,"citta":"Lecce","voto":4,"recensione":"Ho apprezzato la fotografia, la regia e il modo in cui le varie storie si intrecciano. È un film che richiede attenzione, ma riesce a sorprendere fino alla fine. Lo consiglio soprattutto agli amanti del cinema d'autore.","data_recensione":"2026-03-27"}
+{"index":{}}
+{"titolo":"Pulp Fiction","utente":"Riccardo","eta_utente":37,"citta":"Genova","voto":2,"recensione":"Riconosco che sia un film molto influente, ma il suo stile narrativo non mi ha convinto. Alcune scene risultano eccessivamente lunghe e la violenza è spesso esagerata. Ottimo cast, ma personalmente non lo rivedrei.","data_recensione":"2026-03-26"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Se7en","utente":"Elena","eta_utente":28,"citta":"Torino","voto":5,"recensione":"Uno dei thriller più belli che abbia mai visto. David Fincher crea un'atmosfera cupa e coinvolgente, mentre Brad Pitt e Morgan Freeman formano una coppia perfetta. Il finale è sconvolgente e rimane impresso per giorni.","data_recensione":"2026-03-25"}
+{"index":{}}
+{"titolo":"Se7en","utente":"Matteo","eta_utente":32,"citta":"Bologna","voto":5,"recensione":"Thriller costruito alla perfezione. La fotografia scura, la tensione costante e le interpretazioni degli attori rendono il film un vero capolavoro. Il finale è tra i migliori della storia del cinema.","data_recensione":"2026-03-24"}
+{"index":{}}
+{"titolo":"Se7en","utente":"Valentina","eta_utente":25,"citta":"Lecce","voto":4,"recensione":"Film molto coinvolgente e ricco di suspense. Ho apprezzato soprattutto la regia e il modo in cui la tensione cresce fino all'ultima scena. Alcuni momenti sono particolarmente duri, ma fanno parte della forza del film.","data_recensione":"2026-03-23"}
+{"index":{}}
+{"titolo":"Se7en","utente":"Andrea","eta_utente":30,"citta":"Milano","voto":4,"recensione":"Un thriller psicologico di altissimo livello. Morgan Freeman è straordinario e Brad Pitt offre un'ottima interpretazione. Il ritmo è sempre elevato e il finale sorprende davvero.","data_recensione":"2026-03-22"}
+{"index":{}}
+{"titolo":"Se7en","utente":"Fabio","eta_utente":39,"citta":"Genova","voto":2,"recensione":"Dal punto di vista tecnico è un ottimo film, ma l'atmosfera è troppo cupa per i miei gusti. Alcune scene sono molto pesanti e il finale mi ha lasciato più amareggiato che soddisfatto.","data_recensione":"2026-03-21"}
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Whiplash","utente":"Giulia","eta_utente":24,"citta":"Lecce","voto":5,"recensione":"Mi ha tenuto incollata allo schermo dall'inizio alla fine. Il rapporto tra insegnante e studente è costruito benissimo e il finale è spettacolare. Uno dei migliori film che abbia visto negli ultimi anni.","data_recensione":"2026-03-10"}
+{"index":{}}
+{"titolo":"Whiplash","utente":"Marco","eta_utente":30,"citta":"Roma","voto":3,"recensione":"Mi aspettavo qualcosa di diverso. Gli attori sono bravissimi, però dopo un po' la storia diventa ripetitiva e non mi ha emozionato come speravo.","data_recensione":"2026-03-09"}
+{"index":{}}
+{"titolo":"Whiplash","utente":"Sara","eta_utente":27,"citta":"Milano","voto":2,"recensione":"Probabilmente non è il mio genere. Ho trovato il professore esageratamente aggressivo e la storia mi ha trasmesso più ansia che interesse. Non lo rivedrei.","data_recensione":"2026-03-08"}
+{"index":{}}
+{"titolo":"Whiplash","utente":"Andrea","eta_utente":33,"citta":"Bologna","voto":4,"recensione":"La recitazione è incredibile, soprattutto quella di J.K. Simmons. In alcuni punti il ritmo è frenetico, ma è proprio questo che rende il film diverso dagli altri.","data_recensione":"2026-03-07"}
+{"index":{}}
+{"titolo":"Whiplash","utente":"Elena","eta_utente":29,"citta":"Napoli","voto":1,"recensione":"Non sono riuscita ad arrivare fino alla fine. Capisco perché piaccia a molti, ma io l'ho trovato troppo pesante e stressante. È uno di quei film che personalmente non consiglierei.","data_recensione":"2026-03-06"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"The Green Mile","utente":"Martina","eta_utente":25,"citta":"Lecce","voto":5,"recensione":"Pensavo fosse il solito film drammatico, invece mi ha completamente distrutta. Ho pianto negli ultimi venti minuti e difficilmente lo dimenticherò. Michael Clarke Duncan è incredibile.","data_recensione":"2026-03-05"}
+{"index":{}}
+{"titolo":"The Green Mile","utente":"Davide","eta_utente":31,"citta":"Roma","voto":4,"recensione":"La storia è davvero bella e gli attori sono tutti convincenti. L'unica cosa che mi ha pesato è la durata: quasi tre ore sono tante, ma il finale ripaga l'attesa.","data_recensione":"2026-03-04"}
+{"index":{}}
+{"titolo":"The Green Mile","utente":"Alessandro","eta_utente":34,"citta":"Milano","voto":3,"recensione":"Bel film, ma secondo me viene un po' sopravvalutato. La trama è interessante, però in alcuni punti diventa lenta e ho fatto fatica a restare concentrato.","data_recensione":"2026-03-03"}
+{"index":{}}
+{"titolo":"The Green Mile","utente":"Chiara","eta_utente":23,"citta":"Bologna","voto":2,"recensione":"Mi aspettavo molto di più dopo tutte le recensioni positive che avevo letto. La storia è toccante, ma il ritmo è davvero troppo lento per i miei gusti.","data_recensione":"2026-03-02"}
+{"index":{}}
+{"titolo":"The Green Mile","utente":"Federico","eta_utente":37,"citta":"Genova","voto":1,"recensione":"Probabilmente sono una delle poche persone a cui non è piaciuto. L'ho trovato troppo lungo e non sono riuscito a entrare in sintonia con i personaggi. Non credo che lo rivedrò.","data_recensione":"2026-03-01"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Spider-Man: No Way Home","utente":"Davide","eta_utente":27,"citta":"Roma","voto":5,"recensione":"Da fan di Spider-Man mi sono divertito dall'inizio alla fine. Rivedere alcuni personaggi storici è stato emozionante e Willem Dafoe ruba la scena ogni volta che appare. Per me è uno dei migliori film Marvel.","data_recensione":"2026-02-23"}
+{"index":{}}
+{"titolo":"Spider-Man: No Way Home","utente":"Martina","eta_utente":22,"citta":"Bologna","voto":4,"recensione":"Molto bello e ricco di colpi di scena. La parte finale mi è piaciuta tantissimo, anche si in alcuni momenti ho avuto la sensazione che si puntasse troppo sull'effetto nostalgia.","data_recensione":"2026-02-22"}
+{"index":{}}
+{"titolo":"Spider-Man: No Way Home","utente":"Luca","eta_utente":30,"citta":"Verona","voto":3,"recensione":"È un film piacevole, ma mi aspettavo una trama più solida. Alcune scelte narrative mi sono sembrate forzate e il fan service prende spesso il sopravvento sulla storia.","data_recensione":"2026-02-21"}
+{"index":{}}
+{"titolo":"Spider-Man: No Way Home","utente":"Silvia","eta_utente":35,"citta":"Napoli","voto":2,"recensione":"Capisco perché abbia avuto tanto successo, ma non mi ha convinta. Troppi personaggi, troppa confusione e una storia che secondo me poteva essere sviluppata meglio.","data_recensione":"2026-02-20"}
+{"index":{}}
+{"titolo":"Spider-Man: No Way Home","utente":"Giovanni","eta_utente":41,"citta":"Genova","voto":1,"recensione":"Non sono riuscito a farmelo piacere. Se non conosci i film precedenti molte scene perdono significato e ho trovato la trama poco credibile. Personalmente è uno dei Marvel che mi è piaciuto meno.","data_recensione":"2026-02-19"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Her","utente":"Giulia","eta_utente":25,"citta":"Milano","voto":2,"recensione":"Avevo aspettative altissime, invece mi ha annoiato parecchio. L'idea è interessante ma il ritmo è troppo lento per me.","data_recensione":"2026-02-03"}
+{"index":{}}
+{"titolo":"Her","utente":"Matteo","eta_utente":32,"citta":"Roma","voto":5,"recensione":"Mi ha colpito tantissimo. È uno dei pochi film che mi ha fatto riflettere anche il giorno dopo averlo visto.","data_recensione":"2026-02-02"}
+{"index":{}}
+{"titolo":"Her","utente":"Davide","eta_utente":29,"citta":"Bologna","voto":1,"recensione":"Non sono riuscito a finirlo. Dopo un'ora ho cambiato film perché non mi stava prendendo per niente.","data_recensione":"2026-02-01"}
+{"index":{}}
+{"titolo":"Her","utente":"Francesca","eta_utente":24,"citta":"Lecce","voto":4,"recensione":"Molto diverso dai soliti film romantici. In alcuni punti è lento, però il finale mi è piaciuto davvero tanto.","data_recensione":"2026-01-31"}
+{"index":{}}
+{"titolo":"Her","utente":"Stefano","eta_utente":38,"citta":"Genova","voto":3,"recensione":"Non è né un capolavoro né un brutto film. Si lascia guardare, ma probabilmente non lo rivedrò.","data_recensione":"2026-01-30"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Blade Runner 2049","utente":"Andrea","eta_utente":31,"citta":"Torino","voto":5,"recensione":"Non conoscevo nemmeno il primo film e invece questo mi ha conquistato. È uno di quei film che ti fanno pensare anche dopo i titoli di coda. Bellissimo.","data_recensione":"2026-01-29"}
+{"index":{}}
+{"titolo":"Blade Runner 2049","utente":"Silvia","eta_utente":28,"citta":"Firenze","voto":5,"recensione":"Visivamente è pazzesco. Ogni scena sembra un quadro. Non è un film per tutti, ma io l'ho adorato e lo riguarderei volentieri.","data_recensione":"2026-01-28"}
+{"index":{}}
+{"titolo":"Blade Runner 2049","utente":"Matteo","eta_utente":35,"citta":"Roma","voto":2,"recensione":"Sinceramente mi ha annoiato. Bello da vedere, ma succede troppo poco. Dopo metà film continuavo a guardare quanto mancava alla fine.","data_recensione":"2026-01-27"}
+{"index":{}}
+{"titolo":"Blade Runner 2049","utente":"Elena","eta_utente":24,"citta":"Lecce","voto":3,"recensione":"Non mi è dispiaciuto, però mi aspettavo molta più azione. Alcune scene sono davvero belle, altre invece mi sono sembrate interminabili.","data_recensione":"2026-01-26"}
+{"index":{}}
+{"titolo":"Blade Runner 2049","utente":"Davide","eta_utente":30,"citta":"Bologna","voto":4,"recensione":"Mi aspettavo un film più movimentato, invece è molto riflessivo. Non è perfetto, ma ha uno stile unico e secondo me merita di essere visto almeno una volta.","data_recensione":"2026-01-25"}
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Knives Out","utente":"Valentina","eta_utente":27,"citta":"Bari","voto":4,"recensione":"Mi sono divertita parecchio. È uno di quei film che ti fanno cambiare idea sul colpevole ogni venti minuti. Finale davvero azzeccato.","data_recensione":"2026-01-24"}
+{"index":{}}
+{"titolo":"Knives Out","utente":"Gabriele","eta_utente":34,"citta":"Verona","voto":2,"recensione":"Pensavo fosse molto più coinvolgente. Dopo tutta la pubblicità che aveva ricevuto mi aspettavo un giallo pieno di colpi di scena, invece mi ha lasciato abbastanza indifferente.","data_recensione":"2026-01-23"}
+{"index":{}}
+{"titolo":"Knives Out","utente":"Elisa","eta_utente":23,"citta":"Lecce","voto":5,"recensione":"Bellissimo! Era da tanto che non vedevo un giallo così divertente. Daniel Craig è fantastico e fino alla fine non sono riuscita a capire come sarebbe andata.","data_recensione":"2026-01-22"}
+{"index":{}}
+{"titolo":"Knives Out","utente":"Nicola","eta_utente":38,"citta":"Genova","voto":3,"recensione":"Film carino, ma niente di eccezionale. Si guarda volentieri, però una volta finito non mi ha lasciato molto.","data_recensione":"2026-01-21"}
+{"index":{}}
+{"titolo":"Knives Out","utente":"Martina","eta_utente":25,"citta":"Milano","voto":4,"recensione":"Mi è piaciuto soprattutto perché è diverso dai soliti thriller. Il cast funziona benissimo e ci sono anche momenti molto divertenti. Lo consiglierei.","data_recensione":"2026-01-20"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Gone Girl","utente":"Elisa","eta_utente":26,"citta":"Firenze","voto":4,"recensione":"Mi ha tenuta incollata allo schermo fino alla fine. A un certo punto la storia cambia completamente e non me l'aspettavo. L'avrei solo accorciato di una ventina di minuti.","data_recensione":"2026-01-09"}
+{"index":{}}
+{"titolo":"Gone Girl","utente":"Roberto","eta_utente":41,"citta":"Genova","voto":1,"recensione":"A me proprio non è piaciuto. L'ho trovato lentissimo e il finale mi ha lasciato solo confuso. Dopo tutta la fama che ha, mi aspettavo decisamente altro.","data_recensione":"2026-01-08"}
+{"index":{}}
+{"titolo":"Gone Girl","utente":"Matteo","eta_utente":30,"citta":"Roma","voto":5,"recensione":"Uno dei thriller migliori che abbia visto. Ogni volta che pensavo di aver capito tutto succedeva qualcosa che ribaltava la situazione. Mi ha sorpreso davvero.","data_recensione":"2026-01-07"}
+{"index":{}}
+{"titolo":"Gone Girl","utente":"Sara","eta_utente":24,"citta":"Lecce","voto":2,"recensione":"Non mi ha coinvolta come speravo. Le prime scene sono interessanti, poi però ho iniziato a perdere interesse. Non credo che lo riguarderò.","data_recensione":"2026-01-06"}
+{"index":{}}
+{"titolo":"Gone Girl","utente":"Davide","eta_utente":35,"citta":"Bologna","voto":3,"recensione":"Film discreto. Non l'ho trovato noioso, ma nemmeno tutto questo capolavoro. Si guarda volentieri una volta, difficilmente una seconda.","data_recensione":"2026-01-05"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Mad Max: Fury Road","utente":"Alessandro","eta_utente":29,"citta":"Roma","voto":5,"recensione":"Non pensavo che un film con così poca trama potesse tenermi incollato allo schermo. Due ore di adrenalina pura. Lo riguarderei volentieri.","data_recensione":"2025-12-30"}
+{"index":{}}
+{"titolo":"Mad Max: Fury Road","utente":"Martina","eta_utente":24,"citta":"Lecce","voto":4,"recensione":"Mi aspettavo più dialoghi, invece è quasi tutto azione. Però non mi sono stancata nemmeno un minuto. Charlize Theron è il personaggio che mi è piaciuto di più.","data_recensione":"2025-12-29"}
+{"index":{}}
+{"titolo":"Mad Max: Fury Road","utente":"Giorgio","eta_utente":36,"citta":"Bologna","voto":4,"recensione":"Visivamente è incredibile. La storia è semplice, ma il film fa quello che promette: intrattenere. Per me promosso.","data_recensione":"2025-12-28"}
+{"index":{}}
+{"titolo":"Mad Max: Fury Road","utente":"Sara","eta_utente":27,"citta":"Napoli","voto":2,"recensione":"Troppo caotico per i miei gusti. Dopo un po' tutte le scene d'azione mi sono sembrate uguali e non sono riuscita ad appassionarmi ai personaggi.","data_recensione":"2025-12-27"}
+{"index":{}}
+{"titolo":"Mad Max: Fury Road","utente":"Davide","eta_utente":31,"citta":"Milano","voto":4,"recensione":"L'ho visto senza sapere praticamente nulla e mi ha sorpreso. Non è il mio genere preferito, ma il tempo è passato velocemente e mi sono divertito.","data_recensione":"2025-12-26"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Once Upon a Time in Hollywood","utente":"Lorenzo","eta_utente":28,"citta":"Roma","voto":5,"recensione":"A me è piaciuto tantissimo. Non succede sempre qualcosa, ma mi sono goduto ogni scena. Brad Pitt è stato il motivo principale per cui gli ho dato cinque stelle.","data_recensione":"2025-12-25"}
+{"index":{}}
+{"titolo":"Once Upon a Time in Hollywood","utente":"Elena","eta_utente":24,"citta":"Lecce","voto":3,"recensione":"Non l'ho trovato brutto, però mi aspettavo una storia con più ritmo. Alcune scene sono davvero belle, altre mi sono sembrate un po' troppo lunghe.","data_recensione":"2025-12-24"}
+{"index":{}}
+{"titolo":"Once Upon a Time in Hollywood","utente":"Davide","eta_utente":33,"citta":"Milano","voto":2,"recensione":"Dopo tutto quello che avevo sentito mi aspettavo molto di più. Per buona parte del film ho avuto la sensazione che non succedesse quasi nulla.","data_recensione":"2025-12-23"}
+{"index":{}}
+{"titolo":"Once Upon a Time in Hollywood","utente":"Martina","eta_utente":27,"citta":"Bologna","voto":4,"recensione":"L'ho apprezzato soprattutto per gli attori. DiCaprio e Brad Pitt insieme funzionano benissimo. Non è il mio Tarantino preferito, ma lo rivedrei volentieri.","data_recensione":"2025-12-22"}
+{"index":{}}
+{"titolo":"Once Upon a Time in Hollywood","utente":"Giuseppe","eta_utente":39,"citta":"Palermo","voto":2,"recensione":"Non sono riuscito a entrare nella storia. Il cast è eccezionale, ma il film mi è sembrato troppo dispersivo. Il finale è la parte che ho preferito.","data_recensione":"2025-12-21"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Morbius","utente":"Marco","eta_utente":29,"citta":"Roma","voto":1,"recensione":"Pensavo peggio fosse impossibile. La storia non mi ha preso per niente e alcuni effetti sembrano fatti di fretta.","data_recensione":"2025-12-15"}
+{"index":{}}
+{"titolo":"Morbius","utente":"Sara","eta_utente":25,"citta":"Lecce","voto":2,"recensione":"Sono arrivata fino alla fine solo perché ero curiosa. Purtroppo non mi ha lasciato assolutamente nulla.","data_recensione":"2025-12-14"}
+{"index":{}}
+{"titolo":"Morbius","utente":"Davide","eta_utente":34,"citta":"Milano","voto":1,"recensione":"Uno dei film Marvel che mi è piaciuto meno. Personaggi poco interessanti e trama davvero prevedibile.","data_recensione":"2025-12-13"}
+{"index":{}}
+{"titolo":"Morbius","utente":"Elena","eta_utente":31,"citta":"Torino","voto":2,"recensione":"Mi aspettavo almeno un po' di divertimento, invece mi sono annoiata quasi subito. Non lo rivedrei.","data_recensione":"2025-12-12"}
+{"index":{}}
+{"titolo":"Morbius","utente":"Francesco","eta_utente":38,"citta":"Bologna","voto":3,"recensione":"Non è un capolavoro, ma secondo me è stato criticato fin troppo. Si guarda una volta, poi difficilmente viene voglia di rivederlo.","data_recensione":"2025-12-11"}
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Madame Web","utente":"Giulia","eta_utente":24,"citta":"Lecce","voto":1,"recensione":"Sono uscita dal film con la sensazione di aver perso due ore. La trama è confusa e non sono riuscita ad affezionarmi a nessun personaggio.","data_recensione":"2025-12-10"}
+{"index":{}}
+{"titolo":"Madame Web","utente":"Marco","eta_utente":31,"citta":"Roma","voto":2,"recensione":"Pensavo fosse solo criticato per moda, invece non mi ha convinto. Alcune scene sembrano messe lì senza un vero senso.","data_recensione":"2025-12-09"}
+{"index":{}}
+{"titolo":"Madame Web","utente":"Alessandro","eta_utente":36,"citta":"Milano","voto":1,"recensione":"Non ricordavo l'ultima volta che avevo guardato così spesso il telefono durante un film. Davvero deludente.","data_recensione":"2025-12-08"}
+{"index":{}}
+{"titolo":"Madame Web","utente":"Elena","eta_utente":28,"citta":"Napoli","voto":3,"recensione":"Non è un gran film, però secondo me è stato massacrato più del dovuto. Si lascia guardare se non si hanno grandi aspettative.","data_recensione":"2025-12-07"}
+{"index":{}}
+{"titolo":"Madame Web","utente":"Davide","eta_utente":33,"citta":"Bologna","voto":2,"recensione":"L'idea iniziale non era nemmeno male, ma lo sviluppo è davvero debole. Non credo che guarderò un seguito.","data_recensione":"2025-12-06"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Cats","utente":"Martina","eta_utente":23,"citta":"Lecce","voto":1,"recensione":"Pensavo fosse brutto, ma non fino a questo punto. Dopo mezz'ora volevo già spegnerlo.","data_recensione":"2025-12-05"}
+{"index":{}}
+{"titolo":"Cats","utente":"Marco","eta_utente":30,"citta":"Roma","voto":2,"recensione":"Gli effetti dei personaggi mi hanno disturbato per tutto il film. La storia poi non mi ha coinvolto per niente.","data_recensione":"2025-12-04"}
+{"index":{}}
+{"titolo":"Cats","utente":"Andrea","eta_utente":35,"citta":"Milano","voto":1,"recensione":"Sono andato al cinema solo perché mi piace il musical originale. Sono rimasto davvero deluso.","data_recensione":"2025-12-03"}
+{"index":{}}
+{"titolo":"Cats","utente":"Sara","eta_utente":27,"citta":"Bologna","voto":2,"recensione":"Ho provato a dargli una possibilità, ma non è riuscito a prendermi. Mi aspettavo molto di più.","data_recensione":"2025-12-02"}
+{"index":{}}
+{"titolo":"Cats","utente":"Davide","eta_utente":32,"citta":"Genova","voto":1,"recensione":"Uno dei pochi film che ho fatto fatica a finire. Non mi ha convinto sotto nessun aspetto.","data_recensione":"2025-12-01"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Wonder Woman 1984","utente":"Francesco","eta_utente":29,"citta":"Roma","voto":2,"recensione":"Il primo film mi era piaciuto molto, questo invece mi ha deluso. La storia è troppo lunga e in alcuni momenti non sapevo dove volesse andare a parare.","data_recensione":"2025-11-30"}
+{"index":{}}
+{"titolo":"Wonder Woman 1984","utente":"Elisa","eta_utente":24,"citta":"Lecce","voto":1,"recensione":"Sono rimasta davvero delusa. Dopo il primo capitolo avevo aspettative altissime, ma questo sequel non mi ha emozionata per niente.","data_recensione":"2025-11-29"}
+{"index":{}}
+{"titolo":"Wonder Woman 1984","utente":"Marco","eta_utente":34,"citta":"Milano","voto":2,"recensione":"L'ho finito solo perché ero curioso di vedere il finale. Purtroppo non mi ha coinvolto quasi mai e alcune scene sono davvero esagerate.","data_recensione":"2025-11-28"}
+{"index":{}}
+{"titolo":"Wonder Woman 1984","utente":"Giulia","eta_utente":27,"citta":"Bologna","voto":1,"recensione":"Pensavo fosse uno dei film più criticati per esagerazione, invece dopo averlo visto capisco il motivo. Per me è stato un passo indietro rispetto al primo.","data_recensione":"2025-11-27"}
+{"index":{}}
+{"titolo":"Wonder Woman 1984","utente":"Davide","eta_utente":31,"citta":"Torino","voto":2,"recensione":"Qualche scena si salva, ma nel complesso è un film che dimenticherò in fretta. Non credo che lo riguarderò.","data_recensione":"2025-11-26"}
+
+POST recensioni_film/_bulk
+{"index":{}}
+{"titolo":"Crazy, Stupid, Love.","utente":"Marco","eta_utente":27,"citta":"Milano","voto":5,"recensione":"Una commedia romantica intelligente e divertente. Ryan Gosling ed Emma Stone hanno una chimica eccezionale e Steve Carell è irresistibile.","data_recensione":"2026-06-20"}
+{"index":{}}
+{"titolo":"Crazy, Stupid, Love.","utente":"Giulia","eta_utente":24,"citta":"Roma","voto":2,"recensione":"Mi aspettavo molto di più. Alcune scene sono simpatiche ma la storia non mi ha convinto e in certi momenti l'ho trovata abbastanza prevedibile.","data_recensione":"2026-06-19"}
+{"index":{}}
+{"titolo":"Crazy, Stupid, Love.","utente":"Luca","eta_utente":31,"citta":"Torino","voto":4,"recensione":"Film molto piacevole e ben interpretato. Alcune situazioni sono un po' esagerate, ma nel complesso l'ho apprezzato.","data_recensione":"2026-06-18"}
+{"index":{}}
+{"titolo":"Crazy, Stupid, Love.","utente":"Sara","eta_utente":22,"citta":"Bologna","voto":5,"recensione":"Uno dei miei film romantici preferiti. Divertente, emozionante e con un cast davvero fantastico. Ryan Gosling ed Emma Stone sono perfetti insieme.","data_recensione":"2026-06-17"}
+{"index":{}}
+{"titolo":"Crazy, Stupid, Love.","utente":"Davide","eta_utente":29,"citta":"Napoli","voto":3,"recensione":"Film carino, ma non mi ha lasciato molto. Alcune parti sono davvero divertenti, altre invece risultano un po' lente.","data_recensione":"2026-06-16"}
+{ "index": {} }
+{ "titolo":"Avengers: Endgame","utente":"Giulia","eta_utente":25,"citta":"Milano","voto":5,"recensione":"Un finale spettacolare che chiude perfettamente la saga. Mi sono emozionata tantissimo nelle scene finali.","data_recensione":"2026-02-03"}
+
+POST recensioni_film/_bulk
+{ "index": {} }
+{ "titolo":"Avengers: Endgame","utente":"Matteo","eta_utente":32,"citta":"Roma","voto":5,"recensione":"Uno dei migliori film Marvel mai realizzati. Azione, emozioni e personaggi gestiti alla perfezione.","data_recensione":"2026-02-02"}
+{ "index": {} }
+{ "titolo":"Avengers: Endgame","utente":"Davide","eta_utente":29,"citta":"Bologna","voto":4,"recensione":"Film davvero coinvolgente. Avrei preferito qualche scena d'azione in più, ma il finale è memorabile.","data_recensione":"2026-02-01"}
+{ "index": {} }
+{ "titolo":"Avengers: Endgame","utente":"Francesca","eta_utente":24,"citta":"Lecce","voto":5,"recensione":"Mi ha tenuta incollata allo schermo dall'inizio alla fine. È il film Marvel che ho preferito.","data_recensione":"2026-01-31"}
+{ "index": {} }
+{ "titolo":"Avengers: Endgame","utente":"Stefano","eta_utente":38,"citta":"Genova","voto":3,"recensione":"Buon film, ma secondo me è troppo lungo. Alcune scene potevano essere accorciate.","data_recensione":"2026-01-30"}
+{ "index": {} }
+{ "titolo":"Avengers: Endgame","utente":"Andrea","eta_utente":31,"citta":"Torino","voto":4,"recensione":"Grande conclusione della saga. Alcuni momenti sono davvero indimenticabili e gli effetti speciali sono spettacolari.","data_recensione":"2026-01-29"}
+{ "index": {} }
+{ "titolo":"Una notte da leoni","utente":"Marco","eta_utente":30,"citta":"Roma","voto":2,"recensione":"Mi sono divertito tantissimo dall'inizio alla fine. Le battute sono irresistibili, i personaggi sono fantastici e il film scorre velocemente. Lo riguarderei senza problemi.","data_recensione":"2026-03-18"}
+POST recensioni_film/_bulk
+{ "index": {} }
+{ "titolo":"Una notte da leoni","utente":"Giulia","eta_utente":24,"citta":"Milano","voto":5,"recensione":"Mi aspettavo molto di più. Le battute non mi hanno fatto ridere e la trama è abbastanza banale.","data_recensione":"2026-03-19"}
+{ "index": {} }
+{ "titolo":"Una notte da leoni","utente":"Davide","eta_utente":32,"citta":"Napoli","voto":5,"recensione":"Film esilarante, una delle migliori commedie che abbia mai visto.","data_recensione":"2026-03-20"}
+{ "index": {} }
+{ "titolo":"Una notte da leoni","utente":"Sara","eta_utente":27,"citta":"Lecce","voto":3,"recensione":"Carino, alcune scene fanno davvero ridere mentre altre sono un po' prevedibili.","data_recensione":"2026-03-21"}
+POST recensioni_film/_bulk
+{ "index": {} }
+{ "titolo":"Natale alle Bahamas","utente":"Andrea","eta_utente":31,"citta":"Torino","voto":2,"recensione":"Una commedia davvero piacevole, perfetta per una serata in famiglia. Il cast funziona molto bene e mi sono divertito.","data_recensione":"2026-03-22"}
+{ "index": {} }
+{ "titolo":"Natale alle Bahamas","utente":"Elisa","eta_utente":25,"citta":"Bologna","voto":4,"recensione":"Film leggero e simpatico, ideale nel periodo natalizio.","data_recensione":"2026-03-23"}
+{ "index": {} }
+{ "titolo":"Natale alle Bahamas","utente":"Paolo","eta_utente":35,"citta":"Roma","voto":5,"recensione":"La storia è prevedibile e le battute non mi hanno fatto ridere. Mi aspettavo decisamente qualcosa di meglio.","data_recensione":"2026-03-24"}
+{ "index": {} }
+{ "titolo":"Natale alle Bahamas","utente":"Chiara","eta_utente":28,"citta":"Firenze","voto":3,"recensione":"Si lascia guardare, ma non è tra i migliori cinepanettoni.","data_recensione":"2026-03-25"}
+POST recensioni_film/_bulk
+{ "index": {} }
+{ "titolo":"Lo squalo","utente":"Stefano","eta_utente":38,"citta":"Genova","voto":2,"recensione":"È un film straordinario che ancora oggi riesce a creare una tensione incredibile. Un vero capolavoro del thriller.","data_recensione":"2026-03-26"}
+{ "index": {} }
+{ "titolo":"Lo squalo","utente":"Martina","eta_utente":26,"citta":"Milano","voto":5,"recensione":"L'ho trovato piuttosto lento e gli effetti speciali oggi risultano datati. Non mi ha coinvolto molto.","data_recensione":"2026-03-27"}
+{ "index": {} }
+{ "titolo":"Lo squalo","utente":"Luca","eta_utente":29,"citta":"Roma","voto":5,"recensione":"Un classico intramontabile, ricco di suspense e ancora oggi coinvolgente.","data_recensione":"2026-03-28"}
+{ "index": {} }
+{ "titolo":"Lo squalo","utente":"Francesca","eta_utente":24,"citta":"Lecce","voto":4,"recensione":"Film ben fatto, anche se in alcuni momenti il ritmo è un po' lento.","data_recensione":"2026-03-29"}
+
+}
